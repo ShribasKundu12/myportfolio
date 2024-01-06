@@ -1,0 +1,178 @@
+@keyframes slideInleft {
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+.header-text h1{
+    animation-name:slideInleft;
+    animation-duration: 1.5s;
+}
+
+@keyframes headerP {
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+.header-text p{
+    animation-name:headerP;
+    animation-duration: 2s;
+}
+
+
+@keyframes slideInRight{
+    from{
+        transform: translateX(300px);
+    }
+    to{
+        transform:translateX(0);
+    }
+}
+
+.text-msg{
+    animation-name:slideInRight;
+    animation-duration: 1.5s;
+}
+
+.template-image-box{
+    animation-name: comeFromUp;
+    animation-duration: 1s;
+}
+
+@keyframes comeFromUp{
+    from{
+        transform: translateY(300px);
+    }
+    to{
+        transform:translateY(0);
+    }
+}
+
+.social-media-links{
+    animation-name: comeFromDown;
+    animation-duration: 1.5s;
+}
+
+@keyframes comeFromDown{
+    from{
+        transform: translateY(200px);
+    }
+    to{
+        transform:translateY(0);
+    }
+}
+.content-picture{
+    animation-name:picture;
+    animation-duration: 1.5s;
+}
+@keyframes picture{
+    from{
+        transform:translateX(200px);
+    }
+    to{
+        transform:translateX(0);
+    }
+}
+/*about section*/
+
+.about-col-1 img{
+    animation-name:about;
+    animation-duration: 4s;
+}
+
+
+@keyframes about{
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform:translateX(0);
+    }
+}
+
+.about-col-2{
+    animation-name: comeFromDown;
+    animation-duration: 4.5s;
+}
+
+@keyframes comeFromDown{
+    from{
+        transform: translateY(200px);
+    }
+    to{
+        transform:translateY(0);
+    }
+}
+
+.my-skills{
+    animation-name:myskills;
+    animation-duration: 6.5s;
+}
+@keyframes myskills{
+    from{
+        transform:translateX(200px);
+    }
+    to{
+        transform:translateX(0);
+    }
+}
+
+.skills-container{
+    animation-name:div1;
+    animation-duration: 6s;
+}
+@keyframes div1{
+    from{
+        transform:translateX(-200px);
+    }
+    to{
+        transform:translateX(0);
+    }
+}
+
+
+/*education*/
+.edu-container{
+    animation-name:div1;
+    animation-duration: 8.5s;
+}
+@keyframes div1{
+    from{
+        transform:translateX(200px);
+    }
+    to{
+        transform:translateX(0);
+    }
+}
+/*portfolio*/
+.worklist{
+    animation-name:div1;
+    animation-duration: 12s;
+}
+@keyframes div1{
+    from{
+        transform:translateX(200px);
+    }
+    to{
+        transform:translateX(0);
+    }
+}
+
+/*contact section*/
+.contact-list{
+    animation-name:div1;
+    animation-duration: 15s;
+}
+@keyframes div1{
+    from{
+        transform:translateX(-200px);
+    }
+    to{
+        transform:translateX(0);
+    }
+}

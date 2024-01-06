@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <title>Shribas's portfolio Website</title>
+    <link rel="icon" href="myHeroImage.jpg" type="image/icon type">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-queries.css">
+    <link rel="stylesheet" href="animation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <!--Header Design-->
+    <div id="header">
+        <div class="container">
+            <nav class="navbar">
+                <a class="logo" href="#">
+                    <p class="main-logo">My</p>
+                    <p>Portfolio.</p></a>
+                    <div class="scroll-hamburger extra-class">
+                        <i class="bi bi-list-nested"></i>
+                    </div>
+                <ul class="unorder-list">
+                    <li><a href="#" id="list-items">Home</a></li>
+                    <li><a href="#about" id="list-items1">About</a></li>
+                    <li><a href="#skills" id="list-items2">Services</a></li>
+                    <li><a href="#education" id="list-items3">Education</a></li>
+                    <li><a href="#portfolio" id="list-items4">Portfolio</a></li>
+                    <li><i class="bi bi-brightness-high-fill" id="toggleLight"></i></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+        </div>
+        <div class="after-navbar">
+            <div class="header-text">
+                <div class="header-text-cont">
+                    <p>Frontend Developer</p>
+                    <h1>Hi, I'm <span class="name">Shribas Kundu</span><br>From West Bengal, India</h1>
+                    <h4 class="text-msg">ECE undergrad from Asansol Engineering College.</h4>
+                    <div class="cv-container">
+                        <div class="download-cv"><a href="#">Download CV</a></div>
+                        <div  class="contact-info"><a href="#contact">Contact info.</a></div>
+                    </div>
+                    <div class="social-media-links">
+                    
+                        <a href="https://twitter.com/ShribasKundu"><i class="fa-brands fa-twitter icon"></i></a>
+                   
+                    
+                        <a href="https://github.com/ShribasKundu12"><i class="fa-brands fa-github"></i></a>
+                    
+                    
+                        <a href="www.linkedin.com/in/shribas-kundu"><i class="fa-brands fa-linkedin-in"></i></a>
+                    
+                    
+                        <a href="https://www.instagram.com/kundu.shribas"><i class="fa-brands fa-instagram"></i></a>
+                    
+                    </div>
+                </div>  
+            </div>  
+            <div class="overlay-part">
+                <div class="overlay-image"></div>
+            </div>  
+        </div>   
+    </div>
+    <!--About-->
+    <div id="about">
+        <div class="about-container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="profilepic-removebg-preview.png" alt="photo">
+                </div>
+                <div class="about-col-2">
+                    <div class="sub-title">
+                        <h1 >About</h1>
+                        <h1 id="me">Me</h1>
+                    </div>
+                    <br>
+                    <h3 class="about-me">" Hi there, welcome to my website! I'm Shribas Kundu, a passionate Front-end web developer who enjoys learning new technologies and solving problems with code! "</h3>
+                    <h5 class="para1">Driven by a blend of creativity and precision, I specialize in HTML, CSS, and JavaScript. I believe in the power of clean code and pixel-perfect design, and my goal is to elevate the digital landscape with intuitive and engaging web applications.
+
+                        <h5 class="para2">Explore my portfolio to witness the fusion of design and functionality, and let's collaborate to bring your digital vision to life. Looking forward to connecting and exploring the possibilities together!</h5>
+                        <a
+                        class="read-more-btn" href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Skills-->
+    <div id="skills">
+        <div class="my-skills">
+            <h1>My</h1>
+            <h1 class="services">Services</h1>
+        </div>
+        <div class="skills-container">
+            <div class="div1">
+                <i class="fa-solid fa-code code-icon" ></i>
+                <h3 class="web-text">Web Development</h3>
+                <p id="web-dev-para">I use HTML, Cascading Style Sheets for designing websites and JS to create a dynamic and interactive web page to interact with visitors and execute complex actions.As a framework I've prefer Bootstrap.I've some knowlegde about SQL Database- Structured Query Language. Now days I'm exploring new technologies such as AI like chatGPT.</p>
+                <a class="read-more-btns" href="#">Read More</a>
+            </div>
+            <div class="div2">
+                <i class="fa-solid fa-terminal program-icon"></i>
+                <h3 class="programing-text">Programing Enthusiasm</h3>
+                <p id="prog-para">I have a lot of interest in Programing. Till now I learned few programing languages such as C and python, and I've some basic knowlegde in Data Sturcture and Alogrithm. I'm using C programing langauage for learning DSA.I wanna express that I've some problem solving skills, through leetcode, HackerRank I tried to solve problems.</p>
+                <a class="read-more-btns" href="#">Read More</a>
+            </div>
+            
+            <div class="div3">
+                <i class="fa-solid fa-user-gear skill-icon"></i>
+                <h3 class="skill-text">Soft skills/ Non-technical Skills</h3>
+                <p id="softskills-para">I love to design various websites, web clones. Suddenly I created the clone of Amazon Websites, Netflix home page, Minthra's Clone etc and that increases my creativity. Few projects has been created my me, but for making those projects I required the help of my batch mates, so as a Team we work together to make it complete.</p>
+                <a class="read-more-btns" href="#">Read More</a>
+            </div>
+        </div>
+    </div>
+    <!-- Education section-->
+    <div id="education">
+        <div class="my-education">
+            <h1>My</h1>
+            <h1 class="services">Education</h1>
+        </div>
+        <div class="edu-container">
+            <div class="edu-div1">
+                <i class="fa-solid fa-graduation-cap edu-icon"></i>
+                <h1 class="clg-heading">Asansol Engineering College</h1>
+                <p class="clg-info">Electronics and Communication Engineering</p>
+                <p class="clg-info">sep 2022-26</p>
+                <p class="clg-info">Current CGPA- 8.3</p>
+            </div>
+            <br>
+            <br>
+            <div class="edu-div2">
+                <i class="fa-solid fa-school school-icon"></i>
+                <h1 class="school-heading">Subhas Pally Bidyaniketan(HS)</h1>
+                    <p class="school-info">Stream: Science</p>
+                    <p class="school-info">Duration: 2015-22</p>
+                    <p class="school-info">Marks Obtain: Class X: 89% | Class XI: 92.4%</p>
+            </div>
+        </div>
+    </div>
+    <!-- portfolio section-->
+    <div id="portfolio">
+        <div class="portfolio-conainer">
+            <h1>My</h1>
+            <h1 class="services">Work</h1>
+        </div>
+        <div class="worklist">
+                <div class="work">
+                    <img src="Netflix.png">
+                    <div class="layer">
+                        <h3 class="layer-h3">Netflix Website</h3>
+                        <p class="layer-p">It's a clone of official Netflix website. It has been created using HTML CSS and some JS.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Amazon.png">
+                    <div class="layer">
+                        <h3 class="layer-h3">Amazon Website</h3>
+                        <p class="layer-p">It's a clone of official Amazon website. It has been created using HTML and CSS.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Spotify.png">
+                    <div class="layer">
+                        <h3 class="layer-h3">Spotify Website</h3>
+                        <p class="layer-p">It's a clone of spotify website. It has been created using HTML CSS and  JS.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+    <!---contact me section-->
+    <div id="contact">
+        <div class="contact-conainer">
+            <h1>Contact</h1>
+            <h1 class="services">Me!</h1>
+        </div>
+        <div class="contact-list">
+            <form name = "submit-to-google-sheet">
+                <div   class="input-box">
+                    <input  type="text" name="Name" placeholder="Full Name" id= "yourName">
+                    <input  type="email" name="Email" placeholder="Email Address" id= "yourEmail">
+                </div>
+                <div  class="input-box">
+                    <input  type="number" name="Phone no" placeholder="Mobile Number" id= "yourPh">
+                    <input type="text"name="Email subject" placeholder="Email Subject" id= "yourSub" >
+                </div>
+                <textarea  name="Message" id="" cols="30" rows="10" placeholder="Your Message" id= "text-area"></textarea>
+                <button type="submit" class="btn1">Send Message</button>
+            </form>
+        </div>
+    </div>
+    <!--Footer section-->
+    <div class="copyright">
+        <div class="copy-container">
+            <p>copyright © 2024 | All Rights Reserved</p>
+            <a href = "#" class="arrow">
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+        </div>
+    </div>
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>
